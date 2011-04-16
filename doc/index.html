@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documentation by YARD 0.6.7</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  relpath = '';
+  if (relpath != '') relpath += '/';
+</script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+      if (window.top.frames.main) document.body.className = 'frames';
+    </script>
+    
+    <div id="header">
+      <div id="menu">
+  
+    <a href="_index.html" title="Index">Index</a> &raquo; 
+    <span class="title">File: README</span>
+  
+  
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
+
+      <div id="search">
+  <a id="class_list_link" href="#">Class List</a>
+  <a id="method_list_link" href="#">Method List</a>
+  <a id ="file_list_link" href="#">File List</a>
+</div>
+
+      <div class="clear"></div>
+    </div>
+    
+    <iframe id="search_frame"></iframe>
+    
+    <div id="content"><div id='filecontents'><h1>SixArm.com » Ruby » Date #age_in_years and #age_in_days methods</h1>
+<table>
+<tr><td valign="top">Author</td><td><p>
+Joel Parker Henderson, joelparkerhenderson@gmail.com
+</p>
+</td></tr>
+<tr><td valign="top">Copyright</td><td><p>
+Copyright &#169; 2006-2011 Joel Parker Henderson
+</p>
+</td></tr>
+<tr><td valign="top">License</td><td><p>
+See LICENSE.txt file
+</p>
+</td></tr>
+</table>
+<p>
+Date extensions to calculate an age in days and years.
+</p>
+<p>
+@example
+</p>
+<pre class="code">
+  date=Date.new(1980,10,31)
+  date.age_in_days =&gt; 11124
+  date.age_in_years =&gt; 31
+</pre>
+<p>
+@example of custom dates
+</p>
+<pre class="code">
+  date=Date.new(1980,10,31)
+  new_years_eve=(2011,12,31)
+  date.age_in_days_on(new_years_eve) =&gt; 11383
+  date.age_in_years_on(new_years_eve) =&gt; 31
+</pre>
+</div></div>
+    
+    <div id="footer">
+  Generated on Sat Apr 16 15:14:27 2011 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.6.7 (ruby-1.9.2).
+</div>
+
+  </body>
+</html>
